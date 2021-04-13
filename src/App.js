@@ -18,7 +18,7 @@ function App() {
 
 	const randomMove = (move) => {
 		const newComputerChoice = shapes[Math.floor(Math.random() * 3)];
-		const newPlayerChoice = shapes[Math.floor(Math.random() * 3)];
+		// const newPlayerChoice = shapes[Math.floor(Math.random() * 3)];
 		setPlayerChoice(move);
         // setPlayerChoice(newPlayerChoice);
 		setComputerChoice(newComputerChoice);
